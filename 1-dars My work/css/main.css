@@ -1,0 +1,257 @@
+@import url(./fonts.css);
+
+
+:root {
+    --primary-color: #7177F1;
+    --body: #151437;
+    --text-color: #323232;
+    --dots: #828282;
+    --dots-active: #717771;
+    --footer-link: #717171;
+    --white: #fff;
+    --monserant: "Montserrat";
+    --trebuchet: "Trebuchet";
+}
+
+html {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--body);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar-brand {
+    padding: 0 400px 0 0;
+}
+
+.all-btn {
+    background: var(--primary-color);
+    color: var(--white);
+    text-transform: capitalize;
+    padding: 12px 0;
+    font-size: 24px;
+    font-weight: 400;
+    max-width: 190px;
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+    line-height: 16px;
+    transition: .5s;
+}
+
+.all-btn:hover {
+    color: var(--white);
+    background: #790FF1;
+}
+
+.title {
+    color: var(--primary-color);
+    font-size: calc(28 + 12 * (100vw / 1920));
+    font-weight: 600;
+    font-family: var(--monserant);
+    text-transform: capitalize;
+}
+
+/* header start */
+
+.header__logo::after {
+    content: url(../img/MYWORK\ dark.svg);
+}
+
+/* header end */
+.text {
+    color: #EBEBEB;
+    font-family: var(--monserant);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 22px;
+    text-transform: capitalize;
+}
+
+.bold-text {
+    color: var(--dots-active);
+    font-family: var(--monserant);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.carousel-item .all-btn {
+    max-width: 300px;
+    margin: 0 auto 50px;
+}
+
+.techno {
+    text-align: center;
+}
+
+.techno-name {
+    color: var(--dots-active);
+    font-family: var(--monserant);
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.carousel-indicators {
+    bottom: -90px;
+}
+
+.carousel-indicators[data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 1;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #790ff1;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border: 5px solid purple;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-100%, -100%);
+}
+
+.square {
+    width: 98px;
+    height: 98px;
+    border: 5px solid #9297EF;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(100%, 0);
+}
+
+.square45 {
+    left: 0;
+    transform: rotate(45deg) translate(-100%, 150%);
+}
+
+.square71 {
+    border-color: #7177F1;
+    left: unset;
+    right: 0;
+    transform: rotate(45deg) translate(200%, 200%);
+}
+
+.about__img {
+    margin-top: 150px;
+    padding-bottom: 75px;
+    position: relative;
+}
+
+.about__img {
+    width: 50%;
+    position: absolute;
+    top: -100%;
+    right: 0;
+    z-index: -1;
+}
+
+.box {
+    border-radius: 8px;
+    background: #151437;
+    box-shadow: 0px 0px 5px 2px;
+    padding: 34px 30px 26px;
+    z-index: 0;
+}
+
+.primary-text {
+    color: #FFF;
+    font-family: var(--monserant);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: capitalize;
+}
+
+.accordion {
+    box-shadow: 0px 0px 5px 3px rgba(113, 119, 241, 0.15);
+}
+
+.accordion-item {
+    background-color: transparent !important;
+    border-color: #ddd;
+}
+
+.accordion-item .show,
+.collapsed {
+    background-color: #7177F1;
+}
+
+.accordion-button {
+    background-color: transparent !important;
+
+    color: #7177F1;
+    font-family: var(--monserant);
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.accordion-img {
+    height: 30px;
+    margin-right: 20px;
+}
+
+.list-group-item {
+    border-color: #FFF;
+}
+
+.list-group-item {
+    background-color: #151437;
+    color: #FFF;
+}
+
+.list-group .core {
+    background-color: #7177F1;
+    color: #151437;
+}
+
+.card {
+    height: 263px;
+    background-color: #151437;
+    border-color: 
+    #7177F1;
+    box-shadow: 5px 5px;
+}
+
+.card-title {
+   color: #7177F1; 
+}
+
+.card-text {
+    color: #FFF;
+}
+.rounded-start {
+    margin-top: 15px;
+    margin-left: 10px;
+}
